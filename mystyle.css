@@ -39,10 +39,7 @@ hr {
 .brand,
 .address-bar {
     display: none;
-}
-
-.navbar {
-    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .navbar-brand {
