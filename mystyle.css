@@ -43,7 +43,7 @@ hr {
 
 
 .navbar {
-    margin-top: 300px;
+    margin-top: 10px;
 }
 
    .card {background-color: white;
@@ -215,6 +215,6 @@ footer p {
     
     
      .navbar {
-    margin-top: 10px;
+    margin-top: 300px;
 }
 }
