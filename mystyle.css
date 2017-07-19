@@ -6,7 +6,7 @@
 
 body {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background: url('back.jpg') no-repeat center center fixed;
+    background-color: lightgray;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -124,9 +124,6 @@ footer p {
 }
 
 @media screen and (min-width:768px) {
-    .navbar {
-        margin-top: 200px;
-    }
     .brand {
         display: inherit;
         margin: 0;
@@ -205,8 +202,5 @@ footer p {
         content: '';
         display: table;
         clear: both;
-    }
-    .navbar {
-        margin-top: 300px;
     }
 }
