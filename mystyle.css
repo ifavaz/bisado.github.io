@@ -5,7 +5,7 @@
  */
 
 body {
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background: url('back.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -20,7 +20,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -41,16 +41,16 @@ hr {
     display: none;
 }
 
-
 .navbar {
     margin-top: 10px;
 }
 
-   .card {background-color: white;
-        text-align: center;
-        padding: 10px;
-        margin-bottom: 20px;
-    }
+.card {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
 
 .navbar-brand {
     text-transform: uppercase;
@@ -92,7 +92,7 @@ hr {
     margin-bottom: 20px;
     padding: 30px 15px;
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: rgba(255, 255, 255, 0.9);
 }
 
 .intro-text {
@@ -115,7 +115,7 @@ hr {
 
 footer {
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: rgba(255, 255, 255, 0.9);
 }
 
 footer p {
@@ -124,79 +124,73 @@ footer p {
 }
 
 @media screen and (min-width:768px) {
-  
     .navbar {
-    margin-top: 200px;
-}
-
-    
+        margin-top: 200px;
+    }
     .brand {
         display: inherit;
         margin: 0;
         padding: 30px 0 10px;
         text-align: center;
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 5em;
         font-weight: 700;
         line-height: normal;
         color: #fff;
     }
-
     .top-divider {
         margin-top: 0;
     }
-
     .img-left {
         float: left;
         margin-right: 25px;
     }
-
- 
-.movies {margin-top: 2rem;}
-.img-card {width: 100%; margin-bottom: .40rem;}
-.movies {margin-bottom: .60rem;}
-.series {margin-bottom: .60rem;}
-
+    .movies {
+        margin-top: 2rem;
+    }
+    .img-card {
+        width: 100%;
+        margin-bottom: .40rem;
+    }
+    .movies {
+        margin-bottom: .60rem;
+    }
+    .series {
+        margin-bottom: .60rem;
+    }
     .address-bar {
         display: inherit;
         margin: 0;
         padding: 0 0 40px;
         text-align: center;
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
         text-transform: uppercase;
         font-size: 1.25em;
         font-weight: 400;
         letter-spacing: 3px;
         color: #fff;
     }
-
     .navbar {
         border-radius: 0;
     }
-
     .navbar-header {
         display: none;
     }
-
     .navbar {
         min-height: 0;
     }
-
     .navbar-default {
         border: none;
         background: #fff;
-        background: rgba(255,255,255,0.9);
+        background: rgba(255, 255, 255, 0.9);
     }
-
     .nav>li>a {
         padding: 35px;
     }
-
     .navbar-nav>li>a {
         line-height: normal;
     }
-
     .navbar-nav {
         display: table;
         float: none;
@@ -212,9 +206,7 @@ footer p {
         display: table;
         clear: both;
     }
-    
-    
-     .navbar {
-    margin-top: 300px;
-}
+    .navbar {
+        margin-top: 300px;
+    }
 }
