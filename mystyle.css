@@ -39,8 +39,13 @@ hr {
 .brand,
 .address-bar {
     display: none;
-    padding-bottom: 200px;
 }
+
+
+.navbar {
+    position: 200px;
+}
+
 
 .navbar-brand {
     text-transform: uppercase;
