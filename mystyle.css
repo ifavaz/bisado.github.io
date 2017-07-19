@@ -212,4 +212,9 @@ footer p {
         display: table;
         clear: both;
     }
+    
+    
+     .navbar {
+    margin-top: 10px;
+}
 }
