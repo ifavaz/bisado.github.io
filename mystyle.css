@@ -46,6 +46,11 @@ hr {
     margin-top: 300px;
 }
 
+   .card {background-color: white;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
 
 .navbar-brand {
     text-transform: uppercase;
@@ -147,11 +152,7 @@ footer p {
         margin-right: 25px;
     }
 
-    .card {background-color: white;
-        text-align: center;
-        padding: 10px;
-        margin-bottom: 20px;
-    }
+ 
 .movies {margin-top: 2rem;}
 .img-card {width: 100%; margin-bottom: .40rem;}
 .movies {margin-bottom: .60rem;}
