@@ -41,6 +41,10 @@ hr {
     display: none;
 }
 
+.navbar {
+    padding: 200px;
+}
+
 .navbar-brand {
     text-transform: uppercase;
     font-weight: 900;
