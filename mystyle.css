@@ -309,7 +309,7 @@ label .fa {
         display: none;
     }
     .navbar {
-        min-height: 0;
+        min-height: 20px;
     }
     .navbar-default {
         border: none;
