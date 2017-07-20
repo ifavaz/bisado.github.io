@@ -309,7 +309,7 @@ label .fa {
         display: none;
     }
     .navbar {
-        min-height: 20px;
+        min-height: 0;
     }
     .navbar-default {
         border: none;
@@ -317,7 +317,7 @@ label .fa {
         background: rgba(255, 255, 255, 0.9);
     }
     .nav>li>a {
-        padding: 35px;
+        padding: 20px;
     }
     .navbar-nav>li>a {
         line-height: normal;
