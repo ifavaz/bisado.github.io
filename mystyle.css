@@ -36,6 +36,17 @@ hr {
     border-color: #999999;
 }
 
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(jumb.jpg);
+    height: 290px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+
 .brand,
 .address-bar {
     display: none;
