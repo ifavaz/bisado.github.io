@@ -36,6 +36,31 @@ hr {
     border-color: #999999;
 }
 
+ .rescard {
+      background: #fff;
+      display: inline-block;
+      border: 1px solid #ddd;
+    }
+
+  .resimage {
+      float: left;
+      background: #000;
+      width: 25%;
+      height: 220px
+    }
+
+  .rescontent {
+      float: left;
+      height: 210px;
+      width: 73%;
+      overflow: hidden;
+      padding: 5px;
+    }
+
+ .rescontent h4 {
+      margin: 5px 0;
+    }
+
 .jumbotron {
     margin-bottom: 0px;
     background-image: url(jumb.jpg);
