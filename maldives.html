@@ -13,13 +13,17 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript">
         $(function () {
+
             /* Load HTMLS .......................................... */
             $("#transbar").load("inctrans/trans.html"); /* Translation Menu */
             $("#navimen").load("inccommon/navimen.html"); /* Navigation Menu */
+            $("#mald").load("incmaldiv/maldstory.html"); /* Maldives List */
             $("#foot").load("inccommon/footer.html"); /* Feature List */
-            $("#abtmald").load("incmaldiv/maldstory.html"); /* Feature List */
+
         });
+
     </script>
+
     <!-- Custom CSS -->
     <link href="mystyle.css" rel="stylesheet">
     <!-- Fonts -->
@@ -36,18 +40,29 @@
 </head>
 
 <body>
+
     <!-- Translation Menu -->
     <div id="transbar"></div>
     <!-- End of Translation Menu -->
     <!-- Navigation Menu -->
     <div id="navimen"></div>
     <!-- End of Navigation Menu -->
-    <!-- About Maldives -->
-    <div id="abtmald"></div>
-    <!-- End of Maldives -->
+
+    <div class="container">
+        <div class="row">
+
+            <!-- Maldives Menu -->
+            <div id="mald"></div>
+            <!-- End of Maldives Menu -->
+
+        </div>
+    </div>
+
     <!-- Footer -->
     <div id="foot"></div>
     <!-- End of Footert -->
+
+
 </body>
 
 </html>
