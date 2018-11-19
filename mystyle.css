@@ -115,6 +115,10 @@ hr {
     align-items: center; /* For vertical alignment */
 }
 
+.box2 {
+    justify-content: left; /* For horizontal alignment */
+    align-items: top; /* For vertical alignment */
+}
 
 .jumbotron {
     margin-bottom: 0px;
